@@ -1,0 +1,19 @@
+.current {
+    min-width: 30px !important;
+    height: 30px !important;
+	background: #a369e5cc !important;
+    border-radius: 20%;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.2),
+                  -3px -3px 6px 0px rgba(255, 255, 255, 1);
+    transition: all 0.2s ease-out;
+    line-height: 30px !important;
+}
+
+.current:hover {
+    cursor: pointer;
+	background: #a369e5cc !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+                  0 0 0 rgba(255, 255, 255, 0.8),
+                  inset 8px 8px 10px 0px rgba(0, 0, 0, 0.2),
+                  inset -3px -3px 6px 0px rgba(255, 255, 255, 1);
+}
