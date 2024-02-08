@@ -3521,7 +3521,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header.nav-fixed #nav a:hover,
 #page-header.nav-fixed #nav #toggle-menu:hover {
-  color: #49b1f5;
+  color: #fb718d;
 }
 #page-header.nav-fixed.fixed #nav {
   top: 0;
@@ -3815,7 +3815,7 @@ h1.page-title + .tag-cloud-list {
   z-index: -1;
   width: 0;
   height: 3px;
-  background-color: #80c8f8;
+  background-color: #faa6a6;
   content: '';
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3967,10 +3967,10 @@ h1.page-title + .tag-cloud-list {
 }
 #pagination .page-number.current {
   background: #e3edf7;
-  border-radius: 10px;
-  color: var(--black);
-  -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(230,192,206,0.7);
-  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(230,192,206,0.7);
+  border-radius: 25%;
+  color: #000;
+  -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
   border: 1px solid rgba(0,0,0,0);
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
